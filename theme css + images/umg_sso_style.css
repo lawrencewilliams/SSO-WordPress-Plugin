@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+.sso_membership {
+    width:250px; height:37px; padding:9px 0 0 0;
+    background:url(images/bg_sso_loggedout.jpg) left 0 no-repeat;
+    font-style:italic; font-size:11px; color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sso_loggedout {
+    width:228px; padding:9px 0 0 22px;
+}
+#sso_loggedout .sso_text {
+    padding:4px 0px 0 0;
+}
+#sso_loggedout .sso_icons {
+    width:104px; height:25px;
+    background:url(images/sso_icons.png) no-repeat;
+    margin-left: 10px;
+}
+#sso_loggedout span {
+    line-height:17px;
+    display:block; float:left;
+}
+#sso_loggedin {
+    width:300px; height:33px; padding:13px 0 0 10px;
+    background:url(images/bg_sso_loggedin.jpg) left 0 no-repeat;
+}
+#sso_loggedin strong {
+    width:85px; height:11px; margin:0 5px 0 0;
+    display:inline-block;
+    overflow:hidden;
+    line-height:10px;
+}
+.sso_membership strong {
+    color: #fff;
+}
+
+.sso_membership a {
+	color:#ffffff;	
+}
+
+.sso_membership a:link, .sso_membershop a:visited {
+    text-decoration: none;
+    color:#fff;
+    font-size:13px;
+}
+.sso_membership a:hover, .sso_membership a:active {
+	 color:#940808;
+}
+.sso_membership span {
+    height: 20px;
+    line-height: 20px;
+}
